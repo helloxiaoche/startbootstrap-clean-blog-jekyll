@@ -1,15 +1,16 @@
 # Site settings
-title: Clean Blog
+title: HelloXiaoche’Technology Blog
+SEOTitle: helloxiaoche | 小车同学
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "有关数据挖掘和机器学习的学习记录"
 baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+url: "http://helloxiaoche.github.io"
+twitter_username: none
+github_username:  helloxiaoche
+facebook_username:  none
+email_username:  18710890483@163.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
@@ -23,3 +24,28 @@ paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "心向往之~"
+sidebar-avatar: /img/user.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Friends
+friends: [
+    {
+        title: "百度",
+        href: "http://baidu.com"
+    },{
+        title: "微博",
+        href: "http://weibo.com"
+    },{
+        title: "Bar",
+        href: "#"
+    },{
+        title: "Example Friends",
+        href: "#"
+    },{
+        title: "It helps SEO",
+        href: "#"
+    }
+]
